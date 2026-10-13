@@ -1,0 +1,41 @@
+{
+  "args": {
+    "mode": "elev",
+    "epochs": 20,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "summary": {
+    "val_auc_best": {
+      "mean": 0.6555645347494805,
+      "std": 0.0
+    },
+    "test_auc": {
+      "mean": 0.6150232370175793,
+      "std": 0.0
+    },
+    "test_sensitivity": {
+      "mean": 0.6732673267326733,
+      "std": 0.0
+    },
+    "test_specificity": {
+      "mean": 0.48639455782312924,
+      "std": 0.0
+    }
+  },
+  "runs": [
+    {
+      "seed": null,
+      "val_auc_best": 0.6555645347494805,
+      "threshold_from_val": 0.5749898438664925,
+      "test_auc": 0.6150232370175793,
+      "test_sensitivity": 0.6732673267326733,
+      "test_specificity": 0.48639455782312924
+    }
+  ]
+}

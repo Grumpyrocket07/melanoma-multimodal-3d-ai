@@ -16,3 +16,7 @@ python -m venv .venv, activate it, then pip install -r requirements.txt.
 Datasets are not stored in this repo; they are downloaded into data/.
 
 Baseline (dermoscopy only, EfficientNet-B0, melanoma vs other, HAM10000): test AUC 0.878, sensitivity 0.699, specificity 0.865.
+
+Derm7pt (clinical + dermoscopic, 3 seeds, test AUC): clinical 0.771, dermoscopic 0.819, fused 0.830. Fusion not yet clearly better than dermoscopy alone.
+
+Adding elevation (flat/palpable/nodular) as a third input did not help: test AUC 0.803 vs 0.842 for the two images alone. A finer 3D representation is needed.

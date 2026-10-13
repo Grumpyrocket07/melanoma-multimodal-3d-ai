@@ -1,0 +1,57 @@
+{
+  "args": {
+    "mode": "both",
+    "epochs": 20,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "summary": {
+    "val_auc_best": {
+      "mean": 0.8578080504887247,
+      "std": 0.003742486313065274
+    },
+    "test_auc": {
+      "mean": 0.8422464695449138,
+      "std": 0.014622867179872505
+    },
+    "test_sensitivity": {
+      "mean": 0.6435643564356436,
+      "std": 0.037046112740336035
+    },
+    "test_specificity": {
+      "mean": 0.852607709750567,
+      "std": 0.0042422419351178025
+    }
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "val_auc_best": 0.8547679519741398,
+      "threshold_from_val": 0.3538746237754822,
+      "test_auc": 0.8310433084124739,
+      "test_sensitivity": 0.6039603960396039,
+      "test_specificity": 0.8469387755102041
+    },
+    {
+      "seed": 1,
+      "val_auc_best": 0.8630801200646502,
+      "threshold_from_val": 0.4782242476940155,
+      "test_auc": 0.83279450394019,
+      "test_sensitivity": 0.6336633663366337,
+      "test_specificity": 0.8571428571428571
+    },
+    {
+      "seed": 2,
+      "val_auc_best": 0.855576079427384,
+      "threshold_from_val": 0.43494126200675964,
+      "test_auc": 0.8629015962820772,
+      "test_sensitivity": 0.693069306930693,
+      "test_specificity": 0.8537414965986394
+    }
+  ]
+}
