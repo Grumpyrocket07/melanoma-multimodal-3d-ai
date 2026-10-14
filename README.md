@@ -20,3 +20,5 @@ Baseline (dermoscopy only, EfficientNet-B0, melanoma vs other, HAM10000): test A
 Derm7pt (clinical + dermoscopic, 3 seeds, test AUC): clinical 0.771, dermoscopic 0.819, fused 0.830. Fusion not yet clearly better than dermoscopy alone.
 
 Adding elevation (flat/palpable/nodular) as a third input did not help: test AUC 0.803 vs 0.842 for the two images alone. A finer 3D representation is needed.
+
+Risk levels (Derm7pt, fused model, test set): melanoma rate 4.2% in low, 24.6% in medium, 61.8% in high (25.6% overall).
