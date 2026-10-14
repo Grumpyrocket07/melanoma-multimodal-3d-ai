@@ -1,0 +1,145 @@
+{
+  "cutoffs": {
+    "low_below": 0.2121744453907013,
+    "high_at_or_above": 0.5264014730850856
+  },
+  "levels": {
+    "cases": {
+      "low": 167,
+      "medium": 126,
+      "high": 102
+    },
+    "melanomas": {
+      "low": 7,
+      "medium": 31,
+      "high": 63
+    },
+    "melanoma_rate_%": {
+      "low": 4.2,
+      "medium": 24.6,
+      "high": 61.8
+    },
+    "share_of_all_melanomas_%": {
+      "low": 6.9,
+      "medium": 30.7,
+      "high": 62.4
+    }
+  },
+  "per_diagnosis": {
+    "cases": {
+      "melanoma (more than 1.5 mm)": 15,
+      "melanoma (0.76 to 1.5 mm)": 18,
+      "congenital nevus": 4,
+      "melanoma (less than 0.76 mm)": 40,
+      "miscellaneous": 2,
+      "melanoma (in situ)": 26,
+      "combined nevus": 5,
+      "basal cell carcinoma": 16,
+      "seborrheic keratosis": 19,
+      "melanoma": 1,
+      "dermatofibroma": 7,
+      "vascular lesion": 13,
+      "reed or spitz nevus": 34,
+      "blue nevus": 11,
+      "recurrent nevus": 1,
+      "clark nevus": 156,
+      "melanoma metastasis": 1,
+      "dermal nevus": 8,
+      "melanosis": 6,
+      "lentigo": 12
+    },
+    "mean_score": {
+      "melanoma (more than 1.5 mm)": 0.71,
+      "melanoma (0.76 to 1.5 mm)": 0.71,
+      "congenital nevus": 0.63,
+      "melanoma (less than 0.76 mm)": 0.62,
+      "miscellaneous": 0.56,
+      "melanoma (in situ)": 0.53,
+      "combined nevus": 0.47,
+      "basal cell carcinoma": 0.44,
+      "seborrheic keratosis": 0.43,
+      "melanoma": 0.36,
+      "dermatofibroma": 0.31,
+      "vascular lesion": 0.29,
+      "reed or spitz nevus": 0.26,
+      "blue nevus": 0.24,
+      "recurrent nevus": 0.24,
+      "clark nevus": 0.23,
+      "melanoma metastasis": 0.22,
+      "dermal nevus": 0.2,
+      "melanosis": 0.19,
+      "lentigo": 0.14
+    },
+    "low_pct": {
+      "melanoma (more than 1.5 mm)": 0.0,
+      "melanoma (0.76 to 1.5 mm)": 5.56,
+      "congenital nevus": 0.0,
+      "melanoma (less than 0.76 mm)": 12.5,
+      "miscellaneous": 0.0,
+      "melanoma (in situ)": 3.85,
+      "combined nevus": 40.0,
+      "basal cell carcinoma": 12.5,
+      "seborrheic keratosis": 26.32,
+      "melanoma": 0.0,
+      "dermatofibroma": 42.86,
+      "vascular lesion": 53.85,
+      "reed or spitz nevus": 58.82,
+      "blue nevus": 54.55,
+      "recurrent nevus": 0.0,
+      "clark nevus": 61.54,
+      "melanoma metastasis": 0.0,
+      "dermal nevus": 62.5,
+      "melanosis": 50.0,
+      "lentigo": 91.67
+    },
+    "medium_pct": {
+      "melanoma (more than 1.5 mm)": 26.67,
+      "melanoma (0.76 to 1.5 mm)": 16.67,
+      "congenital nevus": 25.0,
+      "melanoma (less than 0.76 mm)": 25.0,
+      "miscellaneous": 50.0,
+      "melanoma (in situ)": 46.15,
+      "combined nevus": 20.0,
+      "basal cell carcinoma": 56.25,
+      "seborrheic keratosis": 42.11,
+      "melanoma": 100.0,
+      "dermatofibroma": 57.14,
+      "vascular lesion": 30.77,
+      "reed or spitz nevus": 29.41,
+      "blue nevus": 36.36,
+      "recurrent nevus": 100.0,
+      "clark nevus": 28.85,
+      "melanoma metastasis": 100.0,
+      "dermal nevus": 37.5,
+      "melanosis": 50.0,
+      "lentigo": 8.33
+    },
+    "high_pct": {
+      "melanoma (more than 1.5 mm)": 73.33,
+      "melanoma (0.76 to 1.5 mm)": 77.78,
+      "congenital nevus": 75.0,
+      "melanoma (less than 0.76 mm)": 62.5,
+      "miscellaneous": 50.0,
+      "melanoma (in situ)": 50.0,
+      "combined nevus": 40.0,
+      "basal cell carcinoma": 31.25,
+      "seborrheic keratosis": 31.58,
+      "melanoma": 0.0,
+      "dermatofibroma": 0.0,
+      "vascular lesion": 15.38,
+      "reed or spitz nevus": 11.76,
+      "blue nevus": 9.09,
+      "recurrent nevus": 0.0,
+      "clark nevus": 9.62,
+      "melanoma metastasis": 0.0,
+      "dermal nevus": 0.0,
+      "melanosis": 0.0,
+      "lentigo": 0.0
+    }
+  },
+  "early_melanoma": {
+    "cases": 66,
+    "pct_medium_or_high": 90.9090909090909,
+    "pct_high": 57.57575757575758
+  }
+}

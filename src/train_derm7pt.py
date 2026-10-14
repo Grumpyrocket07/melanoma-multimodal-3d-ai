@@ -126,7 +126,7 @@ def run_seed(args, seed, device, dfs, train_tf, eval_tf):
     sens, spec = sens_spec(test_probs, test_labels, threshold)
     print(f"seed {seed}: TEST AUC {test_auc:.4f}  sens {sens:.3f}  spec {spec:.3f}")
     return {"seed": seed, "val_auc_best": best_auc, "threshold_from_val": threshold,
-            "test_auc": test_auc, "test_sensitivity": sens, "test_specificity": spec, "history": history}
+            "test_auc": test_auc, "test_sensitivity": sens, "test_specificity": spec, "history": history, "val_probs": val_probs.tolist(), "test_probs": test_probs.tolist()}
 
 
 def main():
