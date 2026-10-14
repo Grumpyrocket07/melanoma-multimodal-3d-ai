@@ -1,0 +1,138 @@
+{
+  "cutoffs": {
+    "low_below": 0.20338714219008883,
+    "high_at_or_above": 0.46028306558728227
+  },
+  "levels": {
+    "cases": {
+      "low": 577,
+      "medium": 96,
+      "high": 113
+    },
+    "melanomas": {
+      "low": 8,
+      "medium": 10,
+      "high": 49
+    },
+    "melanoma_rate_%": {
+      "low": 1.4,
+      "medium": 10.4,
+      "high": 43.4
+    },
+    "share_of_all_melanomas_%": {
+      "low": 11.9,
+      "medium": 14.9,
+      "high": 73.1
+    }
+  },
+  "per_diagnosis": {
+    "cases": {
+      "MEL": 67,
+      "NV": 112,
+      "BEN_OTH": 7,
+      "VASC": 7,
+      "BKL": 82,
+      "DF": 8,
+      "AKIEC": 45,
+      "BCC": 378,
+      "INF": 8,
+      "MAL_OTH": 1,
+      "SCCKA": 71
+    },
+    "low_pct": {
+      "MEL": 11.9,
+      "NV": 32.1,
+      "BEN_OTH": 42.9,
+      "VASC": 57.1,
+      "BKL": 75.6,
+      "DF": 37.5,
+      "AKIEC": 84.4,
+      "BCC": 92.1,
+      "INF": 75.0,
+      "MAL_OTH": 100.0,
+      "SCCKA": 95.8
+    },
+    "medium_pct": {
+      "MEL": 14.9,
+      "NV": 34.8,
+      "BEN_OTH": 28.6,
+      "VASC": 28.6,
+      "BKL": 11.0,
+      "DF": 50.0,
+      "AKIEC": 6.7,
+      "BCC": 5.8,
+      "INF": 25.0,
+      "MAL_OTH": 0.0,
+      "SCCKA": 4.2
+    },
+    "high_pct": {
+      "MEL": 73.1,
+      "NV": 33.0,
+      "BEN_OTH": 28.6,
+      "VASC": 14.3,
+      "BKL": 13.4,
+      "DF": 12.5,
+      "AKIEC": 8.9,
+      "BCC": 2.1,
+      "INF": 0.0,
+      "MAL_OTH": 0.0,
+      "SCCKA": 0.0
+    }
+  },
+  "melanoma_by_thickness": {
+    "cases": {
+      "<0.8": 20,
+      ">0.8-1.0": 5,
+      ">1.0-2.0": 4,
+      ">2.0-3.0": 2,
+      ">4.0-Inf": 1,
+      "not recorded": 35
+    },
+    "low_pct": {
+      "<0.8": 0.0,
+      ">0.8-1.0": 0.0,
+      ">1.0-2.0": 50.0,
+      ">2.0-3.0": 0.0,
+      ">4.0-Inf": 0.0,
+      "not recorded": 17.1
+    },
+    "medium_pct": {
+      "<0.8": 15.0,
+      ">0.8-1.0": 0.0,
+      ">1.0-2.0": 0.0,
+      ">2.0-3.0": 100.0,
+      ">4.0-Inf": 100.0,
+      "not recorded": 11.4
+    },
+    "high_pct": {
+      "<0.8": 85.0,
+      ">0.8-1.0": 100.0,
+      ">1.0-2.0": 50.0,
+      ">2.0-3.0": 0.0,
+      ">4.0-Inf": 0.0,
+      "not recorded": 71.4
+    }
+  },
+  "by_skin_tone": {
+    "lesions": {
+      "0-2 (darker)": 96,
+      "3 (middle)": 460,
+      "4-5 (lighter)": 230
+    },
+    "melanomas": {
+      "0-2 (darker)": 22,
+      "3 (middle)": 27,
+      "4-5 (lighter)": 18
+    },
+    "AUC": {
+      "0-2 (darker)": 0.822,
+      "3 (middle)": 0.95,
+      "4-5 (lighter)": 0.852
+    },
+    "melanomas_rated_medium_or_high_%": {
+      "0-2 (darker)": 86.4,
+      "3 (middle)": 96.3,
+      "4-5 (lighter)": 77.8
+    }
+  }
+}
