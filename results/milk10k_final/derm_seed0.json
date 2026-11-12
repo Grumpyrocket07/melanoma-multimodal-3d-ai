@@ -1,0 +1,12 @@
+{
+  "mode": "derm",
+  "seed": 0,
+  "epochs": 10,
+  "val_auc_best": 0.9191278879239717,
+  "test_auc": 0.8903327590143857,
+  "threshold_youden": 0.5233746767044067,
+  "test_sensitivity": 0.7761194029850746,
+  "test_specificity": 0.8358831710709318,
+  "risk_low_below": 0.2436867505311966,
+  "risk_high_at_or_above": 0.7507744431495667
+}
